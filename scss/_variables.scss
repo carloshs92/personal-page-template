@@ -1,3 +1,9 @@
 $colors: (
-    "whitesmoke": rgb(245, 245, 245)
+    "red": #fc2020,
+    "white": #fff,
+);
+
+$buttons: (
+    // name         color                          font-color
+    danger:         map-get($colors, "red")        map-get($colors, "white")
 );
