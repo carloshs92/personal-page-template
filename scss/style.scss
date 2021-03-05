@@ -1,0 +1,11 @@
+/* ensure you import your own variables here before ours */
+@import "variables";
+
+/* karma core files */
+@import "node_modules/karma-css/scss/variables";
+@import "node_modules/karma-css/scss/import";
+
+/* add your custom modules here */
+
+/* karma utility helpers - probably best at the end of the stylesheet */
+@import "node_modules/karma-css/scss/utilities";
